@@ -1,19 +1,72 @@
 aid: blink-booking
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blink-booking.png
 name: Blink Booking
-description: Blink Booking is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Blink Booking was a Madrid, Spain based mobile application for last-minute
+  hotel booking, founded in 2011 by Rebeca Minguela and Miguel Ortega Rodriguez. The
+  app presented travellers with a curated daily selection of four discounted hotels
+  for same-day stays, working with more than 2,000 hotel partners across eight European
+  countries, and competed directly with HotelTonight. The company raised approximately
+  $2.5M in a Series A round in May 2012 from Ventech, Uncork Capital (then SoftTech
+  VC), 500 Global (then 500 Startups) and Kibo Ventures. Groupon acquired Blink Booking
+  in September 2013 to strengthen its Groupon Getaways travel division; the app was
+  rebranded "Blink by Groupon" and was wound down over the following months. The company
+  is defunct and publishes no developer surface, no API, and no documentation. Its
+  former blinkbooking.com domain lapsed and was re-registered in August 2020 by an
+  unrelated party; it now redirects to a third-party gambling site and must not be
+  treated as a company property.'
 url: https://raw.githubusercontent.com/api-evangelist/blink-booking/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-detail: Acquired by Groupon September 2013, rebranded "Blink by Groupon",
+  brand wound down by 2014. Crunchbase operating status Closed.
+x-acquired-by: groupon
+x-acquired-date: '2013-09-09'
+x-founded: '2011'
+x-headquarters: Madrid, Spain
+x-github-candidate: https://github.com/blinkbooking
+x-github-candidate-note: 'UNCONFIRMED, deliberately NOT wired as a GitHubOrganization
+  pointer. Account exists (HTTP 200) with 2 repos, both forks and no original code:
+  OverblogThriftBundle (Symfony 2 / PHP) and TUDelorean (Objective-C time-travel test
+  helper, forked from Madrid-based Tuenti). The stack and geography are consistent
+  with Blink Booking, but no profile bio, website link or commit attribution confirms
+  first-party ownership, and it publishes no specs or SDKs. Left unscored pending
+  verification.'
+x-former-website: https://blinkbooking.com
+x-former-website-note: 'DO NOT LINK: domain lapsed and was re-registered 2020-08-01
+  (NameCheap) by an unrelated party. It now 302s to dinkesindramayu.org, an Indonesian
+  gambling/slot site, and returns catch-all HTTP 200 for every path including /.well-known/*
+  and /llms.txt. All probe hits against this host are soft-404 false positives and
+  were deliberately discarded.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Hospitality
+- Hotels
+- Booking
+- Mobile Applications
+- Last Minute Travel
+- Defunct
+- Acquired
+- Spain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +74,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://blinkbooking.com
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/blink-booking
+- type: LinkedIn
+  url: https://www.linkedin.com/company/blink-booking
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Defunct company (Groupon acquisition 2013, wound down 2014). No API, docs,
+    SDK, GitHub org or developer surface exists. Former domain is a squatted gambling
+    redirect serving catch-all 200s; no artifacts were saved from it.
