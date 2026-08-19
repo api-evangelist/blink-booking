@@ -53,7 +53,7 @@ x-former-website-note: 'DO NOT LINK: domain lapsed and was re-registered 2020-08
   gambling/slot site, and returns catch-all HTTP 200 for every path including /.well-known/*
   and /llms.txt. All probe hits against this host are soft-404 false positives and
   were deliberately discarded.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
