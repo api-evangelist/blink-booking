@@ -64,16 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: defunct — no API surface.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Blink Booking was a Madrid, Spain based mobile application for last-minute hotel booking, founded in 2011 by Rebeca Minguela and Miguel Ortega Rodriguez. The app offered a curated daily selection of four discounted same-day hotels across more than 2,000 hotel partners in eight European countries, competing directly with HotelTonight.
+Blink Booking was a Madrid, Spain based mobile application for last-minute hotel booking, founded in 2011 by Rebeca Minguela and Miguel Ortega Rodriguez. The app presented travellers with a curated daily selection of four discounted hotels for same-day stays, working with more than 2,000 hotel partners across eight European countries, and competed directly with HotelTonight. The company raised approximately $2.5M in a Series A round in May 2012 from Ventech, Uncork Capital (then SoftTech VC), 500 Global (then 500 Startups) and Kibo Ventures. Groupon acquired Blink Booking in September 2013 to strengthen its Groupon Getaways travel division; the app was rebranded "Blink by Groupon" and was wound down over the following months. The company is defunct and publishes no developer surface, no API, and no documentation. Its former blinkbooking.com domain lapsed and was re-registered in August 2020 by an unrelated party; it now redirects to a third-party gambling site and must not be treated as a company property.
 
-The company raised roughly $2.5M in a Series A round in May 2012 from Ventech, Uncork Capital (then SoftTech VC), 500 Global (then 500 Startups) and Kibo Ventures. Groupon acquired Blink Booking in September 2013 to bolster its Groupon Getaways travel division. The app was rebranded "Blink by Groupon" and the brand was wound down over the following months.
+**Areas:** Company · Travel · Hospitality · Hotels · Booking · Mobile App · Last Minute Travel · Defunct · Acquired · Spain
 
-## Enrichment outcome
+## Blink Booking on APIs.io (historical record)
 
-The 2026-07-20 enrichment pass completed with **zero artifacts**. The company publishes no API, documentation, SDK, developer portal or verified GitHub organization.
+Everything profiled for Blink Booking is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blink-booking/](https://apis.io/providers/blink-booking/)** — or go straight to one of the APIs or properties below.
 
-⚠️ **Do not link `blinkbooking.com`.** The domain lapsed and was re-registered on 2020-08-01 by an unrelated party. It now redirects to a third-party gambling site and returns a catch-all HTTP 200 for *every* path — including `/.well-known/security.txt`, `/.well-known/openid-configuration` and `/llms.txt`. Every probe hit against that host is a soft-404 false positive and was discarded rather than saved as an artifact.
+## API Evangelist rating
 
-Backed by: 500-global
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blink Booking: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blink-booking/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
